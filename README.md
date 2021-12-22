@@ -3,15 +3,27 @@
 ![logo](images/logo.png "Logo")
 
 ## Table of Contents:
-  - [Announcements and official blog posts](#announcements-and-official-blog-posts)
-  - [Learning resources](#learning-resources)
-    - [Getting started](#getting-started)
-    - [Setup, customization and deploying](#setup,-customization-and-deploying)
-    - [Web development](#web-development)
-    - [Mobile development](#mobile-development)
-    - [Security and authorization](#security-and-authorization)
-    - [Appwrite services](#security-and-authorization)
+  - [Announcements and Official Blog Posts](#announcements-and-official-blog-posts)
+  - [30 Days of Appwrite](#30-days-of-appwrite-)
+  - [Hacktoberfest 2021](#hacktoberfest-2021) 
+  - [Learning Resources](#learning-resources)
+    - [Getting Started](#getting-started)
+    - [Setup, Customization and Deployment](#setup-customization-and-deployment)
+    - [Web Development](#web-development)
+    - [Mobile Development](#mobile-development)
+    - [Security and Authentication](#security-and-authentication)
+    - [Appwrite Services](#appwrite-services)
   - [Showcase (Source Code)](#showcase-built-with-appwrite-)
+    - [Angular](#angular)
+    - [Express](#express)
+    - [Flutter](#flutter)
+    - [Godot](#godot)
+    - [Golang](#golang)
+    - [Python](#python)
+    - [React](#react)
+    - [Svelte](#svelte)
+    - [Vue](#vue)
+    - [Android](#android)
   - [Videos](#videos)
   - [Books](#books)
   - [Inspiration](#inspiration)
@@ -20,7 +32,17 @@
   - [Tools](#Tools)
   - [Communities](#communities)
 
-## 30 Days of Appwrite ✨
+## Announcements and Official Blog Posts
+* [Announcing the Appwrite SDK for Dart](https://dev.to/appwrite/announcing-appwrite-sdk-for-dart-3ehc) (Official)
+* [Announcing the Appwrite CLI 🚀](https://dev.to/appwrite/announcing-the-appwrite-cli-4m68) (Official)
+* [Learn How to Add Object Detection Capabilities to Your Appwrite Storage Using Cloud Functions](https://dev.to/appwrite/learn-how-to-add-object-detection-capabilities-to-your-appwrite-storage-using-cloud-functions-4j6j) (Official)
+* [Sending a Custom Welcome Email Using Appwrite Functions and Mailgun](https://dev.to/appwrite/sending-a-custom-welcome-email-using-appwrite-functions-and-mailgun-225a) (Official)
+* [Create an Appwrite File Backup Function Using the Dropbox API](https://dev.to/appwrite/create-an-appwrite-file-backup-function-using-the-dropbox-api-2pfo) (Official)
+* [Learn How to Create and Run Appwrite Functions With Dart](https://dev.to/appwrite/learn-how-to-create-and-run-appwrite-functions-with-dart-5668) (Official)
+* [Learn How to Disable ClamAV in Your Appwrite Stack and Reduce Memory Usage](https://dev.to/appwrite/learn-how-to-disable-clamav-in-your-appwrite-stack-and-reduce-memory-usage-2e37) (Official)
+* [Appwrite Releases a Native Svelte SDK for Its Open-Source BaaS](https://dev.to/appwrite/appwrite-releases-a-native-svelte-sdk-for-its-open-source-baas-5g0g) (Official)
+
+### 30 Days of Appwrite ✨
 * [Day 1 - Pilot](https://dev.to/appwrite/30daysofappwrite-4hh)
 * [Day 2 - Installation](https://dev.to/appwrite/installing-appwrite-366o)
 * [Day 3 - Appwrite’s building blocks](https://dev.to/appwrite/30daysofappwrite-appwrite-s-building-blocks-1936)
@@ -53,8 +75,6 @@
 
 
 Showcase for projects built during [#30DaysOfAppwrite](https://30days.appwrite.io/)!! 
-Submit your projects and win some Awesome Appwrite Swag 🤩 
-<!-- Raise a PR and add a link to your project under this section. -->
 * [Dart Online Compiler](https://github.com/aadarshadhakalg/BLoC-Appwrite)
 * [Ruitoque´s Food](https://ruitoquefood.com/)
 * [Todo With Flutter](https://github.com/SirusCodes/todo_appwrite)
@@ -67,21 +87,12 @@ Submit your projects and win some Awesome Appwrite Swag 🤩
 * [KnowYourFood](https://github.com/LeBraveLittleToaster/KnowYourFood)
 * [Budgetist](https://github.com/intel-raja/budgetist_kakeibo#budgetist_kakeibo)
 
-## Hacktoberfest content
+## Hacktoberfest 2021
 * [What is Appwrite and how to contribute for Hacktoberfest](https://dev.to/mishmanners/four-projects-to-contribute-to-this-hacktoberfest-pep)
 * [Appwrite, giving it a shot this Hacktoberfest ‘21](https://medium.com/@anand26shweta/appwrite-giving-it-a-shot-ad1ef79ae44f)
 
-## Announcements and official blog posts
-* [Announcing the Appwrite SDK for Dart](https://dev.to/appwrite/announcing-appwrite-sdk-for-dart-3ehc) (Official)
-* [Announcing the Appwrite CLI 🚀](https://dev.to/appwrite/announcing-the-appwrite-cli-4m68) (Official)
-* [Learn How to Add Object Detection Capabilities to Your Appwrite Storage Using Cloud Functions](https://dev.to/appwrite/learn-how-to-add-object-detection-capabilities-to-your-appwrite-storage-using-cloud-functions-4j6j) (Official)
-* [Sending a Custom Welcome Email Using Appwrite Functions and Mailgun](https://dev.to/appwrite/sending-a-custom-welcome-email-using-appwrite-functions-and-mailgun-225a) (Official)
-* [Create an Appwrite File Backup Function Using the Dropbox API](https://dev.to/appwrite/create-an-appwrite-file-backup-function-using-the-dropbox-api-2pfo) (Official)
-* [Learn How to Create and Run Appwrite Functions With Dart](https://dev.to/appwrite/learn-how-to-create-and-run-appwrite-functions-with-dart-5668) (Official)
-* [Learn How to Disable ClamAV in Your Appwrite Stack and Reduce Memory Usage](https://dev.to/appwrite/learn-how-to-disable-clamav-in-your-appwrite-stack-and-reduce-memory-usage-2e37) (Official)
-* [Appwrite Releases a Native Svelte SDK for Its Open-Source BaaS](https://dev.to/appwrite/appwrite-releases-a-native-svelte-sdk-for-its-open-source-baas-5g0g) (Official)
-## Learning resources 
-### Getting started
+## Learning Resources 
+### Getting Started
 * [Getting Started for Flutter](https://appwrite.io/docs/getting-started-for-flutter) (Official)
 * [Getting Started for Server](https://appwrite.io/docs/getting-started-for-server) (Official)
 * [Getting Started for Android](https://appwrite.io/docs/getting-started-for-android) (Official)
@@ -102,8 +113,9 @@ Submit your projects and win some Awesome Appwrite Swag 🤩
 * [How to setup Appwrite on Ubuntu](https://dev.to/noviicee/how-to-setup-appwrite-on-ubuntu-3j67)
 * [Open Source Backend Server - Appwrite](https://dev.to/hardikchopra242/open-source-backend-server-appwrite-48b9)
 * [Python in Appwrite ](https://dev.to/robimez/python-in-appwrite-378h)
+* [Appwrite with Dart!](https://dev.to/timothy22000/appwrite-with-dart-3knc)
 
-### Setup, customization and deploying
+### Setup, Customization and Deployment
 * [How to add custom Docker containers to Appwrite](https://dev.to/streamlux/adding-custom-docker-containers-to-appwrite-2chp)
 * [Appwrite VS Code extension](https://dev.to/streamlux/appwrite-vs-code-extension-1356)
 * [Host Appwrite Backend with DigitalOcean Droplet](https://medium.com/@vaytrex/host-your-appwrite-backend-with-digitalocean-droplet-f3d248c60815)
@@ -118,7 +130,7 @@ Submit your projects and win some Awesome Appwrite Swag 🤩
 * [Import sample data to Appwrite through Integromat](https://imknight.com/import-data-to-appwrite-through-integromat/)
 * [Integrate Adalo with Appwrite](https://imknight.com/integrate-adalo-with-appwrite/)
 
-### Web development
+### Web Development
 * [Node.JS in Appwrite](https://dev.to/finnkr/nodejs-in-appwrite-21kk)
 * [Integrating with Appwrite HTTP API Using no-SDK](https://medium.com/appwrite-io/how-to-connect-with-the-appwrite-backend-server-directly-using-only-the-appwrite-http-api-1e720b567395?source=friends_link&sk=1568e3606160605b28274050618cd68f)
 * [Newsletter Form Application with Appwrite and React](https://thebeginner86.medium.com/newsletter-form-application-with-appwrite-and-react-2791bd38a457)
@@ -133,8 +145,10 @@ Submit your projects and win some Awesome Appwrite Swag 🤩
 * [Getting Started with Appwrite in NextJS by Building An App](https://dev.to/qwe123coder/getting-started-with-appwrite-in-nestjs-22gk)
 * [Integrate Appwrite Storage API with React](https://dev.to/harisarang/integrate-appwrite-storage-api-with-react-5dg3)
 * [How To Generate and Store Map Previews in Ruby with Appwrite](https://dev.to/oliverpham/how-to-generate-and-store-map-previews-in-ruby-with-appwrite-43ha)
+* [What is Appwrite and who i setup in my project?](https://dev.to/jordi5107/what-is-appwrite-and-who-i-setup-in-my-project-3af)
+* [How Appwrite real-time can make your CMS changes instant](https://sakshiuppoor.hashnode.dev/how-appwrite-real-time-can-make-your-cms-changes-instant)
 
-### Mobile development
+### Mobile Development
 * [Appwrite the best backend for mobile apps and its features](https://qr.ae/pGxRuF)
 * [Appwrite secure open-source backend server for Flutter example app](https://dev.to/netfirms/appwrite-and-flutter-example-app-42ce)
 * [How setup Appwrite for Android with Retrofit ( Direct HTTP Request )](https://medium.com/@developersm13/how-to-setup-appwrite-io-for-android-with-retrofit-e6271d770cad)
@@ -143,14 +157,14 @@ Submit your projects and win some Awesome Appwrite Swag 🤩
 * [Dart in Appwrite](https://dev.to/oshi36/dart-in-appwrite-47e)
 * [Appwrite + Appcelerator Titanium: A step by step guide](https://github.com/m1ga/from_zero_to_app/blob/master/appwrite_app.md)
 
-### Security and authentication
+### Security and Authentication
 * [Restricting Access to Your Appwrite Console](https://medium.com/appwrite-io/you-can-now-restrict-access-to-your-appwrite-console-b8b447885289?source=friends_link&sk=95b78cf75ff633e0f32b8a76ea619b08)
 * [User authentication with React.js and Appwrite](https://medium.com/@e.wambugu192/user-authentication-with-react-js-and-appwrite-30c9096e92b2)
 * [Full List of Appwrite Environment Variables](https://appwrite.io/docs/environment-variables)
 * [How to Use Magic URL Login with Appwrite](https://muthuannamalai.tech/how-to-use-magic-url-login-with-appwrite)
 * [How to use Appwrite on React Native](https://dev.to/fernandoamz/appwrite-react-native-48cn)
 
-### Appwrite services
+### Appwrite Services
 * [AppWrite Services](https://koulurunandakishorereddy.tech/appwrite-services)
 * [Image Resizing and Cropping with Appwrite](https://medium.com/appwrite-io/how-to-use-appwrite-open-source-platform-as-your-image-cropping-optimisation-service-2c5efab4edcb?source=friends_link&sk=11c8c6d50c2c24d0084f20f98a90a0bd)
 * [Cropping and Optimizing images with Appwrite](https://medium.com/@anand26shweta/cropping-and-optimizing-images-with-appwrite-1e3662c37eaa)
@@ -211,7 +225,7 @@ Share your apps here! Submit a pull request!
 ### Godot
 * **Godot + Appwrite** - A demo app to showcase Godot's integration with Appwrite. [Source Code](https://github.com/lohanidamodar/godot-appwrite)
 
-### golang
+### Golang
 * **GoRest** A demo app to showcase integrating appwrite apis with golang. Using database endpoints and examples [Source Code](https://github.com/maliaga-pantoja/golang-appwrite-demo)
 
 ### Python
@@ -256,6 +270,8 @@ Share your apps here! Submit a pull request!
 
 * **Chatwrite** -- A simple, no-login chat app made with Appwrite and React. [Source Code](https://github.com/DarthFloopy/Chatwrite)
 
+* **Real-Time CMS using React + Appwrite Real-Time API** - A blogging app to demonstrate how Appwrite's Real-time Service can be used to make CMS changes instant [Source Code](https://bitbucket.org/generic-team-name-23/real-time-cms/src/master/)
+
 ### Svelte
 * **OmniaWrite** - OmniaWrite is a next-generation plain text editor engineered for creative writing. It is perfect for writing novels, lyrics, poems, essays, drafts and screenplays. [Source Code](https://github.com/TorstenDittmann/OmniaWrite), [Blog Post](https://omniawrite.com/posts/update-1-0-0)
 
@@ -267,6 +283,9 @@ Share your apps here! Submit a pull request!
 * **Appwrite + Vue.js CRUD** This is a Vue.js App made to interact with a Appwrite Server [Source Code](https://github.com/Anstroy/countries-app-vue)
 
 * **Appwrite + Vue Todo MVC** A simple todo app built with Appwrite and Vue. [Source Code](https://github.com/appwrite/todo-with-vue) [Demo](https://appwrite-todo-with-vue.vercel.app/)
+
+### Android
+* **Appwrite + Kotlin Android App -> Taleia** - A simple app that generates sets of random word combinations to fight the writer's block. It Allows to log in and save them with Appwrite to be able to retreive the liked combinations later. [Source Code](https://github.com/und1n3/taleia)
 
 
 ## Videos
@@ -371,8 +390,8 @@ Share your apps here! Submit a pull request!
 ## Communities 
 
 * [Appwrite Blog](https://medium.com/appwrite-io) (Official, global)
-* [Discord Server](https://discord.gg/GSeTUeA) (Official, global)
-* [Twitter](https://twitter.com/appwrite_io) (Official, global)
+* [Discord Server](https://appwrite.io/discord) (Official, global)
+* [Twitter](https://twitter.com/appwrite) (Official, global)
 * [Facebook](https://www.facebook.com/appwrite.io/) (Official, global)
 * [Appwrite Developers on Facebook](https://www.facebook.com/groups/appwrite.developers/?source_id=227046654430085) (Official, global)
 * [Gitter](https://gitter.im/appwrite/community) (Legacy, global)
